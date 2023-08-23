@@ -19,7 +19,7 @@ alpha_list.append(
     # this is used to manually instantiate the classes for signals that
     # have customized components
     FormulaicAlphaBuilder(alpha_func=alpha_functions.custom_alpha_04,
-                          start_date="20001231", vol_target=0.1),
+                          start_date="20011231", vol_target=0.1),
 )
 
 print(len(alpha_list))
